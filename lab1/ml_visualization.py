@@ -62,7 +62,7 @@ def plot_confusion_matrix(y_true, y_pred, classes,title='Confusion matrix',cmap=
     plt.tight_layout()
 
 def get_colors_from_colormap(colorMap, step):
-    cmap = matplotlib.cm.get_cmap('Spectral')
+    cmap = matplotlib.colormaps.get_cmap('Spectral')
 
     colors = []
     #for i in frange(0, 1 + step, step):
