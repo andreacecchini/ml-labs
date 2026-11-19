@@ -1,0 +1,27 @@
+[project]
+name = "ml-lab"
+version = "0.1.0"
+description = "Shared Python environment for weekly Machine Learning laboratories"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "scikit-image",
+    "matplotlib",
+    "seaborn",
+    "pillow",
+    "tqdm",
+    "torch",
+    "torchvision",
+    "tensorflow",
+    "keras",
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+]
+
+[tool.uv]
+package = false

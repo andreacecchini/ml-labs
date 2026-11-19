@@ -1,0 +1,33 @@
+# Python & uv virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editors (keep shared VS Code workspace settings)
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# ML runtime caches / temporary outputs
+.keras/
+runs/
+lightning_logs/
+wandb/
+*.tmp
+
+# Optional: uncomment if you later add very large datasets or model weights
+# *.h5
+# *.ckpt
+# *.pt
+# *.pth
